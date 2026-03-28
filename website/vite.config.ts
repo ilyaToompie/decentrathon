@@ -8,6 +8,7 @@ export default defineConfig(({ mode }) => ({
   define: {
     global: 'globalThis',
   },
+  base: process.env.NODE_ENV === 'production' ? '/decentrathon/' : './',
 
   server: {
     host: "::",

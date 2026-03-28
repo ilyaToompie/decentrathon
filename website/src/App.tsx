@@ -20,10 +20,8 @@ const App = () => (
     <TooltipProvider>
         <Toaster />
         <Sonner />
-        <BrowserRouter>
+        <BrowserRouter basename="decentrathon">
         <ConnectWallet />
-        <WalletInfo />
-
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/pools" element={<ExplorePools />} />

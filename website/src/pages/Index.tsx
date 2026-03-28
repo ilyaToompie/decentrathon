@@ -32,7 +32,7 @@ const Index = () => {
           <img src={heroImg} alt="Agricultural farmland" width={1920} height={1080} className="w-full h-full object-cover" />
           <div className="absolute inset-0 bg-foreground/50" />
           {/* Web3 grid overlay */}
-          <div className="absolute inset-0 opacity-[.05]" style={{ backgroundImage: "linear-gradient(hsl(var(--primary-foreground)) 1px, transparent 1px), linear-gradient(90deg, hsl(var(--primary-foreground)) 1px, transparent 1px)", backgroundSize: "60px 60px" }} />
+          <div className="absolute inset-0 opacity-[.01]" style={{ backgroundImage: "linear-gradient(hsl(var(--primary-foreground)) 1px, transparent 1px), linear-gradient(90deg, hsl(var(--primary-foreground)) 1px, transparent 1px)", backgroundSize: "60px 60px" }} />
         </div>
         <div className="relative container py-28 md:py-40">
           <div className="max-w-2xl">

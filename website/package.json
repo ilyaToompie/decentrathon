@@ -3,14 +3,13 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://ilyaToompie.github.io/decentrathon",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "build:dev": "vite build --mode development",
-    "lint": "eslint .",
     "preview": "vite preview",
-    "test": "vitest run",
-    "test:watch": "vitest"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
@@ -53,6 +52,7 @@
     "cryptocurrency-icons": "^0.18.1",
     "date-fns": "^3.6.0",
     "embla-carousel-react": "^8.6.0",
+    "gh-pages": "^6.3.0",
     "input-otp": "^1.4.2",
     "lucide-react": "^0.462.0",
     "next-themes": "^0.3.0",
